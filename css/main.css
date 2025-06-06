@@ -1,0 +1,130 @@
+@font-face {
+    font-family: cothamSans;
+    src: url(../fonts/CothamSans.otf);
+}
+
+@font-face {
+    font-family: 'DotGothic16';
+    font-kerning: -10px;
+    src: url(../fonts/DotGothic16-Regular.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+:root {
+    --candyred: #ffadad;
+    --candyorange: #ffd6a5;
+    --candyyellow: #fdffb6;
+    --candygreen: #caffbf;
+    --candylightblue: #9bf6ff;
+    --candyblue: #a0c4ff;
+    --candypurple: #bdb2ff;
+    --candypink: #ffc6ff;
+    --candywhite: #fffffc;
+    --candyblack: #2b2d42;
+}
+
+
+body {
+    /* background-image: url(../img/bg.png); */
+    background-color: var(--candyblack);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    cursor: default;
+}
+
+main {
+    padding-left: 20px;;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+p, h1, h2, h3, h4, nav, li, ul, label, pre, form, fieldset, a, header, footer {
+    color: var(--candywhite);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'DotGothic16';
+    color: var(--candygreen);
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+#fullscreen {
+    width: 150px;
+    align-content: center;
+    display: block;
+    margin-left: 0;
+    margin-right: 25px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aboutimg {
+    width: 200px;
+    height: 200px;
+    box-shadow: #ffffff00 5px 5px 10px;
+    border: 2px solid #ffffffff;
+    border-radius: 250px;
+    object-fit: cover;
+}
+
+footer {
+    padding: 1rem;
+    padding-top: 3rem;
+    text-align:center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.no-decor {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;;
+}
+
+.tag {
+  font-size: 0.8em; /* smaller text */
+  opacity: 0.6;      /* less opaque */
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'DotGothic16';
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: var(--candygreen);
+}
