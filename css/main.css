@@ -128,3 +128,23 @@ main {
     font-weight: bolder;
     color: var(--candygreen);
 }
+
+
+.lightmode {
+    background-color: var(--candywhite);
+    color: var(--candyblack);
+}
+
+.lightmode a, .lightmode h2, .lightmode ul, .lightmode li, .lightmode footer, .lightmode div, .lightmode p, .lightmode .tag, .lightmode h4 {
+    color: var(--candyblack);
+}
+
+.lightmode h1 {
+    color: var(--candyblack);
+    text-shadow: var(--candygreen) 1px 1px 5px;
+}
+
+.lightmode .center, .lightmode .active {
+    color: var(--candyblack);
+    text-shadow: var(--candygreen) 1px 1px 5px;
+}
