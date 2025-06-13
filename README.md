@@ -1,6 +1,6 @@
 # worktwo: a final
 
-- one of the pages has to be "about", which must 
+- one of the pages has to be "about", which must blabla
 - minimum of 3 pages, consistent layout and functional navigation
 - one of the pages needs a contact form
 - use semantic tags
