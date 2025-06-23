@@ -11,38 +11,48 @@
 
     <div class="wrapper">
     
-    <main>
+    <main class="merger">
 
-    <div class="header">
-        <img src="img/mode.png" alt="icon" onclick="toggleMode()">
-        <h1 style="margin: 0%; padding: 0%; padding: 0%; margin: 0%;">Segurança na Internet</h1>
-        <nav style="font-size: large; font-weight: bolder; padding: 0%;">
-            <div style="display: flex; flex-direction: row; gap: 20px;">
+    <div class="sideA">
+        <h1>Segurança na Internet</h1>
+        <div style="display: flex; flex-direction: row; gap: 50px;">
+            <nav style="display: flex; flex-direction: column; ">
                 <a href="index.html">dicas gerais</a>
                 <a href="sobre.html">sobre</a>
                 <a href="senhas.html" class="active">senhas</a>
                 <a href="golpes.html">golpes</a>
                 <a href="viruses.html">víruses</a>
-            </div>
-        </nav>
+            </nav>
+        </div>
+        <footer>
+            <a class="tag" onclick="toggleAccessibility()">modo acessível /</a>
+            <a class="tag" onclick="toggleMode()">trocar tema /</a>
+            <a class="tag">2025 benidot /</a>
+            <a class="tag" href="https://github.com/benidot/worktwo" target="_blank" style="text-decoration: underline;">link para repo</a>
+        </footer>
+
     </div>
 
-    <h2>Dicas: Senhas poderosas</h2>
-    <ul class="no-decor">
-        <li>Não use na sua senha:</li>
-        <li>- E-mails, especialmente o da conta que está criando;</li>
-        <li>- Data de nascimento;</li>
-        <li>- Nome legal;</li>
-        <li>- Lugar onde mora ou trabalha.</li>
-        <li><br>Não use a mesma senha em todas suas contas;</li>
-        <li>Use pelo menos 12 caracteres, com letras maiúsculas e minúsculas, números e símbolos (!, ., #, etc.);</li>
-        <li>Altere suas senhas regularmente.</li>
-    </ul>
-    <br>
+    <div class="sideB">
+        <h2>Dicas: Senhas poderosas</h2>
+
+        <h3>Nas senhas:</h3>
+        <p>Não use informações óbvias, como o e-mail da conta.</p>
+        <p>Evite também informações privadas como data de nascimento, nome legal, onde mora ou trabalha, etc.</p>
+
+        <h3>Não utilize a mesma senha em todas as contas.</h3>
+        <p>Pense bem: Caso use apenas uma senha, uma rede social pode ser hackeada e ter acesso ao seu e-mail e até contas bancárias.</p>
+
+            
+        <h3>Use senhas fortes.</h3>
+        <p>Não é sem motivo que hoje em dia sites pedem senhas fortes. Lembre-se de usar letras maiúsculas e minúsculas, números e símbolos.</p>
+        
+        <h3>Altere suas senhas regularmente.</h3>
+        <p>Caso algum serviço seja hackeado, não precisará entrar em pânico.</p>
+        
+    </div>
 
     </main>
-
-    <footer>© 2025 benidot / <a href="https://github.com/benidot/worktwo" target="_blank" style="text-decoration: underline;">repo link</a></footer>
 
     </div>
 </body>

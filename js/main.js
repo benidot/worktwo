@@ -2,8 +2,6 @@ function toggleMode() {
   var element = document.body;
   element.classList.toggle("lightmode");
 
-  // claro que eu fui ver de complicar essa coisa
-
   if (element.classList.contains("lightmode")) {
     localStorage.setItem("mode", "light");
   } else {
@@ -19,4 +17,23 @@ window.onload = function() {
   } else {
     document.body.classList.remove("lightmode");
   }
+
+  var savedMode = localStorage.getItem("accessible");
+  if (savedMode === "true") {
+    document.body.classList.add("accessible");
+  } else {
+    document.body.classList.remove("accessible");
+  }
+}
+
+function toggleAccessibility() {
+  var element = document.body;
+  element.classList.toggle("accessible");
+
+  if (element.classList.contains("accessible")) {
+    localStorage.setItem("accessible", "true");
+  } else {
+    localStorage.setItem("accessible", "false");
+  }
+
 }
