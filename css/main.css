@@ -19,9 +19,8 @@
     --bg: #6d6875;
     --secondary: #ffcdb2;
     --white: #f3eff5;
-    --black: #454955;
+    --black: #333533;
 }
-
 
 body {
     background-color: var(--bg);
@@ -137,8 +136,7 @@ main {
 
 .lightmode .sideA {
     background-color: var(--theme);
-    border-right: none;
-    box-shadow: var(--theme) 5px 0px 10px;
+    box-shadow: var(--theme) 10px 0px 10px;
 }
 
 .sideA {
@@ -151,8 +149,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border-right: var(--theme) solid 5px;
-    box-shadow: var(--theme) 5px 0px 10px;
+    box-shadow: var(--theme) 10px 0px 10px;
+    background-color: var(--black);
 }
 
 .sideB {
@@ -165,7 +163,6 @@ main {
     overflow-y: auto;
     overflow-x: hidden;
 }
-
 
 .merger {
     display: flex;
@@ -192,14 +189,8 @@ h2 {
     font-size: larger;
 }
 
-subtext {
-    padding: 10px;
-    margin: 0px;
-}
-
-wall {
-    padding: 10px;
-    margin: 0px;
+.accessible h3 {
+    font-size: x-large;
 }
 
 @media (orientation: portrait) {
@@ -212,8 +203,7 @@ wall {
       width: 100%; 
       height: auto; 
       border-right: none;
-      border-bottom: var(--theme) solid 5px;
-      box-shadow: var(--theme) 0px 5px 10px;
+      box-shadow: var(--theme) 0px 10px 10px;
     }
 
     .lightmode .sideA {
@@ -225,5 +215,4 @@ wall {
     .sideB {
       flex: 1;
     }
-  }
-  
+}
