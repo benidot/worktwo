@@ -61,6 +61,7 @@ h3 {
     padding-top: 25px;
     margin: 0px;
     font-weight: bolder;
+    font-size: 22px;
 }
 
 p {
@@ -80,7 +81,7 @@ a {
     width: 200px;
     height: 200px;
     box-shadow: #ffffff00 5px 5px 10px;
-    border: 2px solid #ffffffff;
+    border: 2px solid var(--theme);
     border-radius: 250px;
     object-fit: cover;
 }
@@ -193,6 +194,16 @@ h2 {
     font-size: x-large;
 }
 
+input, textarea, fieldset {
+    background-color: var(--black);
+    border-radius: 5px; 
+    border: var(--theme) solid 1px;
+}
+
+.btn {
+    background-color: var(--white);
+}
+
 @media (orientation: portrait) {
     
     .merger {
@@ -214,5 +225,6 @@ h2 {
   
     .sideB {
       flex: 1;
+      margin: 25px;
     }
 }
