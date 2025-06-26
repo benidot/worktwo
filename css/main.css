@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Inclusive Sans', sans-serif;
-    src: url(../fonts/InclusiveSans-VariableFont_wght.ttf);
+    font-family: "Inclusive Sans", sans-serif;
+    src: url(../fonts/InclusiveSans-Regular.ttf);
 }
 
 :root {
@@ -40,7 +40,7 @@ html, body {
 
 p, h1, h2, h3, h4, nav, li, ul, label, pre, form, fieldset, a, header, footer {
     color: var(--white);
-    font-family: sans-serif;
+    font-family: "Inclusive Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
